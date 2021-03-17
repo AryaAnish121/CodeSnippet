@@ -2,7 +2,7 @@
     "name": "code-snippet",
     "displayName": "Code Snippet",
     "description": "This is a simple code generator for almost every language",
-    "version": "1.0.0",
+    "version": "1.5.0",
     "publisher": "aryaanish",
     "author": {
         "name": "Arya Anish"
