@@ -1,0 +1,58 @@
+{
+    "CSS code snippet": {
+        "prefix": "stc",
+        "body": [
+            "*{",
+            "    margin: 0;",
+            "    padding: 0;",
+            "    box-sizing: border-box;",
+            "    overflow-x: hidden;",
+            "}"
+        ],
+        "description": "Create a css starter template"
+    },
+    "Express starter template": {
+        "prefix": "ste",
+        "body": [
+            "const express = (\"express\");",
+            "const app = express();",
+            "$0",
+            "app.get(\"/\", function (req, res) {",
+            "   res.send(\"hello\");",
+            "});",
+            "const PORT = process.env.PORT || 3000",
+            "$0",
+            "app.listen(port, function () {",
+            "   console.log(\"server started at \" + port);",
+            "});"
+        ],
+        "description": "Create a app starter template"
+    },
+    "React starter index template": {
+        "prefix": "sti",
+        "body": [
+            "import React from \"react\";",
+            "import ReactDOM from \"react-dom\";",
+            "$0",
+            "ReactDOM.render(<App />, document.getElementById(\"root\"));"
+        ],
+        "description": "Create a index starter template"
+    },
+    "React starter app template": {
+        "prefix": "sta",
+        "body": [
+            "import React from \"react\";",
+            "$0",
+            "function App() {",
+            "    return (",
+            "        <div>",
+            "           <h1>hello</h1>",
+            "        </div>",
+            "    );",
+            "}",
+
+            "export default App;"
+        ],
+        "description": "Create a app starter template"
+    }
+}
