@@ -3,7 +3,13 @@
     "displayName": "Code Snippet",
     "description": "This is a simple code generator for almost every language",
     "version": "1.0.0",
-    "publisher": "Arya Anish",
+    "publisher": "aryaanish",
+    "author": {
+        "name": "Arya Anish"
+    },
+    "keywords": [
+        "code snippet"
+    ],
     "icon": "logo.png",
     "repository": {
         "type": "git",
