@@ -44,15 +44,30 @@
         "body": [
             "import React from \"react\";",
             "$0",
-            "function App() {",
+            "const App = () => {",
             "    return (",
             "        <div>",
             "           <h1>hello</h1>",
             "        </div>",
             "    );",
             "}",
-
             "export default App;"
+        ],
+        "description": "Create a app starter template"
+    },
+    "React starter component generator": {
+        "prefix": "stco",
+        "body": [
+            "import React from \"react\";",
+            "$0",
+            "const ${1:Compmonent} = () => {",
+            "    return (",
+            "        <div>",
+            "           <h1>hello</h1>",
+            "        </div>",
+            "    );",
+            "}",
+            "export default ${1:Compmonent};"
         ],
         "description": "Create a app starter template"
     }
